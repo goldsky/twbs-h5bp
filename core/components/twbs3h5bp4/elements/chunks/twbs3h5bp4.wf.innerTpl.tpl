@@ -1,1 +1,1 @@
-[[+wf.wrapper]]
+[[+wf.wrapper]]<!-- innerTpl -->

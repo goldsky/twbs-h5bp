@@ -22,6 +22,11 @@
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
           <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
+        <!-- JS libraries are placed on top for inline javascript in body -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/components/twbs3h5bp4/vendor/html5-bp/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="assets/components/twbs3h5bp4/vendor/html5-bp/js/plugins.js"></script>
+        <script src="assets/components/twbs3h5bp4/vendor/twbs/js/bootstrap.min.js"></script>
 
     </head>
     <body>
@@ -48,13 +53,16 @@
                 &firstClass=``
                 &lastClass=``
                 &hereClass=`active`
-                &selfClass=`active`
+                &selfClass=``
                 &parentClass=`dropdown`
                 &rowClass=``
                 &levelClass=``
                 &outerClass=`nav navbar-nav`
                 &innerClass=``
                 &webLinkClass=``
+                &levelClass=`lvl-`
+                &rowIdPrefix=`twbs3h5bp4-`
+                &removeNewLines=`1`
                 ]]
                 <div class="container">
                     <div class="row">
@@ -95,11 +103,7 @@
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/components/twbs3h5bp4/vendor/html5-bp/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="assets/components/twbs3h5bp4/vendor/html5-bp/js/plugins.js"></script>
-        <script src="assets/components/twbs3h5bp4/vendor/twbs/js/bootstrap.min.js"></script>
-
+        <script src="assets/components/twbs3h5bp4/js/twbs3h5bp4.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
