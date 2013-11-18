@@ -1,0 +1,5 @@
+Changelog for twbs3h5bp4
+
+twbs3h5bp4 1.0.0-beta-1 (November 18, 2013)
+====================================
+- Initial submission

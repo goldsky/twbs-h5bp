@@ -1,0 +1,61 @@
+/* http://www.virtudraft.com/blog/sticky-footer-using-csss-display-table.html */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* only to force vertical scroll on browsers */
+    overflow-y: scroll;
+    /* remove default paddings and margins on browsers */
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px; // for navbar-fixed-top
+}
+
+#innerwrap {
+    display: table-row;
+    height: 100%;
+}
+
+#footer {
+    display: table-row;
+    height: 1px;
+    font-size: 0.8em;
+}
+
+#twbs3h5bp4-nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#twbs3h5bp4-nav .right-caret {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #000000;
+    display: inline-block;
+    height: 0;
+    opacity: 0.3;
+    vertical-align: central;
+    width: 0;
+}
+
+#twbs3h5bp4-nav .dropdown-menu li a {
+    display: block;
+}
+
+#twbs3h5bp4-nav .dropdown-menu li:hover .dropdown-menu {
+    position: absolute;
+    top: 0;
+    display: block;
+    left: 155px;
+}
