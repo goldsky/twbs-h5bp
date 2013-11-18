@@ -1,3 +1,6 @@
 [submodule "assets/components/twbs3h5bp4/vendor/html5-bp"]
 	path = assets/components/twbs3h5bp4/vendor/html5-bp
 	url = https://github.com/h5bp/html5-boilerplate.git
+[submodule "assets/components/twbs3h5bp4/vendor/twbs"]
+	path = assets/components/twbs3h5bp4/vendor/twbs
+	url = https://github.com/twbs/bootstrap dist/
