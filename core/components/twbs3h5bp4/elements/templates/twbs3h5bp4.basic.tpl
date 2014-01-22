@@ -10,6 +10,7 @@
         <meta name="description" content="[[*description]]">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <base href="[[++site_url]]">
         <link rel="stylesheet" href="assets/components/twbs3h5bp4/vendor/html5-bp/css/normalize.css">
         <link rel="stylesheet" href="assets/components/twbs3h5bp4/vendor/html5-bp/css/main.css">
         <link rel="stylesheet" href="assets/components/twbs3h5bp4/vendor/twbs/css/bootstrap.min.css">

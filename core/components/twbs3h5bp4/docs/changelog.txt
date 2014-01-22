@@ -1,5 +1,10 @@
 Changelog for twbs3h5bp4
 
+twbs3h5bp4 1.0.0-pl (January 22, 2014)
+===========================================
+- added base href to the template
+- added jquery-1.10.2.min.map
+
 twbs3h5bp4 1.0.0-beta-2 (November 18, 2013)
 ===========================================
 - Fixed submenus
