@@ -1,0 +1,26 @@
+Changelog for twbsh5bp
+
+twbsh5bp 1.2.0-pl (April 13, 2016)
+===========================================
+- added login & profile drop downs for top header
+- twitter's bootstrap v3.3.6
+- HTML5 Boilerplate v5.3.0
+
+twbsh5bp 1.1.0-pl (August 12, 2015)
+===========================================
+- rename package from twbs3h5bp4 to twbsh5bp
+- twitter's bootstrap v3.3.5
+- HTML5 Boilerplate v5.2.0
+
+twbs3h5bp4 1.0.0-pl (January 22, 2014)
+===========================================
+- added base href to the template
+- added jquery-1.10.2.min.map
+
+twbs3h5bp4 1.0.0-beta-2 (November 18, 2013)
+===========================================
+- Fixed submenus
+
+twbs3h5bp4 1.0.0-beta-1 (November 18, 2013)
+===========================================
+- Initial submission

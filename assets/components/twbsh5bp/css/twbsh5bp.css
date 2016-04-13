@@ -1,0 +1,88 @@
+/* http://www.virtudraft.com/blog/sticky-footer-using-csss-display-table.html */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* only to force vertical scroll on browsers */
+    overflow-y: scroll;
+    /* remove default paddings and margins on browsers */
+    padding: 0;
+    margin: 0;
+}
+
+#wrap {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    height: 100%;
+    /*for navbar-fixed-top*/
+    /*padding-top: 60px;*/ 
+}
+
+#innerwrap {
+    display: table-row;
+    height: 100%;
+}
+
+#footer {
+    display: table-row;
+    height: 1px;
+    font-size: 0.8em;
+}
+
+#twbsh5bp-nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#twbsh5bp-nav .right-caret {
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #000000;
+    display: inline-block;
+    height: 0;
+    /*opacity: 0.3;*/
+    vertical-align: middle;
+    width: 0;
+    margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+    #twbsh5bp-nav .right-caret {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-top: 4px solid #000000;
+        border-right: 4px solid transparent;
+        border-bottom: 0 dotted;
+        border-left: 4px solid transparent;
+    }
+
+    #twbsh5bp-nav .dropdown ul ul {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    #twbsh5bp-nav .dropdown-menu li a {
+        display: block;
+    }
+
+    #twbsh5bp-nav .dropdown-menu li > .dropdown-menu {
+        left: 100%;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        margin-top: -1px;
+    }
+    #twbsh5bp-nav .dropdown-menu li:hover > .dropdown-menu {
+        visibility: visible;
+        display: block;
+    }
+}
